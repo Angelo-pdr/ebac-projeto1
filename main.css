@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px 40px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+header nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 5px;
+    cursor: pointer;
+    
+}
+
+header nav li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header nav li:hover{
+    text-decoration: underline;
+}
+
+section{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#sobre  h1{
+    margin-left: -34px;
+}
+section .container img{
+    margin-left: -34px;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+section .container #game{
+    margin-left: 20px;
+    max-height: 350px;
+}
+
+section .container ul{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+section .container nav li{
+    margin-top: 5px;
+}
+
+section .container{
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 17px;
+    
+}
+
+section .container #game #maior{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+section .container #game #maior img{
+    display: block;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+section .container #game #maior span{
+    max-width: 200px;
+}
+
+#historia{
+    margin: 50px 0;
+}
+#historia img{
+    display: block;
+    margin-left: 10px;
+}
+#historia .container {
+    align-items: center;
+}
+
+section .container form{
+    display: block;
+}
+
+section .container form input{
+    width: 400px;
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: black 1px solid;
+    outline-color: blue;
+}
+
+section .container form textarea{
+    width: 400px;
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+    border: black 1px solid;
+}
+
+section .container form button{
+    display: block;
+    text-align: center;
+    padding: 15px 20px;
+    width: 400px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+section .container form button:hover{
+    background-color: rgb(56, 56, 252);
+}
+
+section .container{
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px 40px;
+    font-size: 17px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
